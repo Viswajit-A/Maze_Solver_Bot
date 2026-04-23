@@ -1,6 +1,6 @@
-# 🤖 Maze Solver Robot — Project Documentation
+# 🤖 Maze Solver Robot
 
-A fully autonomous maze-solving robot built on **ROS 2 (Humble)** using the **linorobot2** platform. The robot uses frontier-based exploration with SLAM and Nav2 to autonomously map and navigate through unknown environments.
+A maze-solving robot built on **ROS 2 (Humble)** using the **linorobot2** platform. The robot uses frontier-based exploration with SLAM and Nav2 to map and navigate through unknown environments.
 
 ---
 ## 👥 Team Members
