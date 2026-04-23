@@ -24,7 +24,7 @@ A maze-solving robot built on **ROS 2 (Humble)** using the **linorobot2** platfo
 
 ## 🎥 Exploration Video in RViz2
 
-[Click Here for the Maze Solver Robot Exploration of a Room](https://youtu.be/kyNVrxybrgM)
+[Click Here for the Maze Solver Robot Exploration of a Room with teleop_twist_keyboard in ROS 2](https://youtu.be/kyNVrxybrgM)
 
 ---
 
