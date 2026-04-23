@@ -3,6 +3,22 @@
 A fully autonomous maze-solving robot built on **ROS 2 (Humble)** using the **linorobot2** platform. The robot uses frontier-based exploration with SLAM and Nav2 to autonomously map and navigate through unknown environments.
 
 ---
+## 👥 Team Members
+
+| Name | Institute |
+|---|---|
+| Budharaju Pavani Siva Priya | Amrita Vishwa Vidyapeetham |
+| Prajan S | Amrita Vishwa Vidyapeetham |
+| Viswajit Arunkumar | Amrita Vishwa Vidyapeetham |
+| Yashwanth Ram Mohan C | Amrita Vishwa Vidyapeetham |
+
+**Mentor:** Jayasree P.R.
+
+---
+
+## 🎥 Preparation Video
+
+[Maze Solver Robot Preparation](https://youtu.be/phrGzGO_d04)
 
 ## 📁 Project Structure
 
