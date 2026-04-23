@@ -1,8 +1,24 @@
-# 🤖 Maze Solver Robot — Project Documentation
+# 🤖 Maze Solver Robot
 
-A fully autonomous maze-solving robot built on **ROS 2 (Humble)** using the **linorobot2** platform. The robot uses frontier-based exploration with SLAM and Nav2 to autonomously map and navigate through unknown environments.
+A maze-solving robot built on **ROS 2 (Humble)** using the **linorobot2** platform. The robot uses frontier-based exploration with SLAM and Nav2 to map and navigate through unknown environments.
 
 ---
+## 👥 Team Members
+
+| Name | Institute |
+|---|---|
+| Budharaju Pavani Siva Priya | Amrita Vishwa Vidyapeetham |
+| Prajan S | Amrita Vishwa Vidyapeetham |
+| Viswajit Arunkumar | Amrita Vishwa Vidyapeetham |
+| Yashwanth Ram Mohan C | Amrita Vishwa Vidyapeetham |
+
+**Mentor:** Jayasree P.R.
+
+---
+
+## 🎥 Preparation Video
+
+[Click Here for the Maze Solver Robot Preparation](https://youtu.be/phrGzGO_d04)
 
 ## 📁 Project Structure
 
@@ -12,7 +28,53 @@ A fully autonomous maze-solving robot built on **ROS 2 (Humble)** using the **li
 ├── ldlidar_ros2_ws/          # LiDAR driver workspace (LD series LiDAR sensors)
 └── maze_robot_ws/            # Core maze-solving logic (SLAM + Nav2 + Frontier Exploration)
 ```
+## 🔩 Hardware Design
 
+### A. Mechanical System
+
+The chassis is fabricated from **laser-cut acrylic sheets** in a two-plate structure (base plate + top plate), connected by **four 30 mm spacers** for structural rigidity.
+
+| Spec | Value |
+|---|---|
+| Drive Type | Differential Drive (2WD) |
+| Wheel Diameter | 44 mm |
+| Wheel Base | 15 cm |
+| Robot Footprint | 15 × 15 cm |
+| Robot Height | ~8.3 cm |
+| Support | Ball caster wheel |
+
+**Sensor Placement:**
+- 2D LiDAR mounted at the **center** for symmetrical 360° scanning
+- IMU positioned at the **center of the bottom plate** to minimize motion-induced measurement errors
+
+### B. Electronics & Instrumentation
+
+#### Control Architecture (Distributed)
+
+| Layer | Component | Role |
+|---|---|---|
+| High-level | Raspberry Pi 4 Model B | ROS 2 nodes, SLAM, Nav2, path planning |
+| Low-level | ESP32 | Motor PWM, encoder reading, micro-ROS client |
+| Storage | 128 GB SD Card | OS, ROS packages, project data |
+| Display | OLED Screen | Runtime status — boot, mapping, obstacle avoidance |
+
+#### Sensing & Motion
+
+| Component | Model | Purpose |
+|---|---|---|
+| LiDAR | LD Lidar STL19P (LD19) | 360° environmental scanning, obstacle detection |
+| IMU | MPU6050 | Orientation, acceleration, angular velocity |
+| Motors | N20 DC Geared + Encoder | Drive + odometry feedback |
+| Motor Driver | TB6612FNG | Dual-channel H-bridge for motor power |
+
+#### Power Source
+
+| Component | Spec |
+|---|---|
+| Battery | 11.1V Lithium-Ion (3S, 3380mAh 60C) |
+| Distribution | XT60 Power Distribution Board |
+| Connectors | XT60 (battery), Type-C (Pi), Micro-USB (ESP32) |
+| Safety | Rocket switch (master power cutoff) |
 ---
 
 ## 🧠 System Overview
@@ -21,20 +83,20 @@ A fully autonomous maze-solving robot built on **ROS 2 (Humble)** using the **li
 ┌─────────────────────────────────────────────────────────────┐
 │                        Robot System                         │
 │                                                             │
-│   ESP32 Firmware (micro-ROS)                               │
-│   ├── Motor Control (PWM + PID)                            │
-│   ├── Encoder Feedback (Odometry)                          │
-│   └── IMU (MPU6050) → Orientation                          │
-│                        ↓                                   │
-│   LiDAR (LD19) → /scan topic                               │
-│                        ↓                                   │
-│   SLAM Toolbox → /map (OccupancyGrid)                      │
-│                        ↓                                   │
-│   Frontier Server → Detects unknown regions                │
-│                        ↓                                   │
-│   Frontier Explorer → Selects & navigates to frontiers     │
-│                        ↓                                   │
-│   Nav2 (navigate_to_pose) → Path planning & execution      │
+│   ESP32 Firmware (micro-ROS)                                │
+│   ├── Motor Control (PWM + PID)                             │
+│   ├── Encoder Feedback (Odometry)                           │
+│   └── IMU (MPU6050) → Orientation                           │
+│                        ↓                                    │
+│   LiDAR (LD19) → /scan topic                                │
+│                        ↓                                    │
+│   SLAM Toolbox → /map (OccupancyGrid)                       │
+│                        ↓                                    │
+│   Frontier Server → Detects unknown regions                 │
+│                        ↓                                    │
+│   Frontier Explorer → Selects & navigates to frontiers      │
+│                        ↓                                    │
+│   Nav2 (navigate_to_pose) → Path planning & execution       │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -101,7 +163,7 @@ Provides ROS 2 drivers for the **LDRobot LD-series LiDAR** sensors. Publishes la
 
 - LD06
 - LD14 / LD14P
-- **LD19** (used in this project)
+- **STL19P** (used in this project)
 
 #### Key ROS Topics
 
@@ -311,21 +373,24 @@ ros2 launch linorobot2_viz slam.launch.py
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Summary
 
 | Category | Technology |
 |---|---|
 | Robotics Framework | ROS 2 Humble |
 | Microcontroller | ESP32 |
-| Firmware Framework | PlatformIO + Arduino |
-| MCU–ROS Bridge | micro-ROS (Serial) |
+| Main Computer | Raspberry Pi 4 Model B |
+| Firmware Framework | PlatformIO + Arduino (LinoRobot2) |
+| MCU–ROS Bridge | micro-ROS (Serial / USB) |
 | SLAM | SLAM Toolbox (online async) |
 | Navigation | Nav2 |
-| Exploration | Custom BFS Frontier Detection |
-| LiDAR | LDRobot LD19 |
+| Exploration | Custom BFS + A* Frontier Detection |
+| LiDAR | LDRobot LD19 (STL19P) |
 | IMU | MPU6050 |
-| Motor Driver | Generic 2-IN H-Bridge |
-| Visualization | RViz2 |
+| Motor Driver | TB6612FNG Dual H-Bridge |
+| Visualization | RViz2, Gazebo |
+| CAD | AutoCAD |
+| Chassis | Laser-cut acrylic (2-plate structure) |
 | Language (firmware) | C++ |
 | Language (ROS nodes) | Python 3 |
 
