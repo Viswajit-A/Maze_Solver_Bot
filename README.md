@@ -35,7 +35,7 @@ A maze-solving robot built on **ROS 2 (Humble)** using the **linorobot2** platfo
 
 ### 🔬 Electronics Close-Up
 
-![LiDAR and Raspberry Pi close-up](Bot_Photos/AMS4.jpeg)
+![LiDAR and Raspberry Pi close-up](Bot_Photos/AMS.jpeg)
 
 *Detailed view of the Raspberry Pi 4 with gold dual-fan heatsink and the LD19 LiDAR sensor (blue LEDs active) mounted on top*
 
@@ -51,7 +51,7 @@ A maze-solving robot built on **ROS 2 (Humble)** using the **linorobot2** platfo
 
 ### 🗺️ SLAM Map — RViz2 Visualization
 
-![RViz2 SLAM map](Bot_Photos/AMS.jpeg)
+![RViz2 SLAM map](Bot_Photos/AMS4.jpeg)
 
 *Real-time occupancy grid map being built by SLAM Toolbox during maze exploration, visualized in RViz2. The map shows explored free space (white), walls (dark), and the robot's current LiDAR scan (colored rays). Terminal logs show SLAM Toolbox, EKF, and Nav2 running simultaneously.*
 
