@@ -1,0 +1,24 @@
+[0.351s] Invoking command in '/home/viswaa888/maze_robot_ws/build/slam_robot': PYTHONPATH=/home/viswaa888/maze_robot_ws/build/slam_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/viswaa888/maze_robot_ws/build/slam_robot/build --no-deps symlink_data --force
+[0.474s] running develop
+[0.550s] running egg_info
+[0.550s] writing slam_robot.egg-info/PKG-INFO
+[0.550s] writing dependency_links to slam_robot.egg-info/dependency_links.txt
+[0.550s] writing entry points to slam_robot.egg-info/entry_points.txt
+[0.550s] writing requirements to slam_robot.egg-info/requires.txt
+[0.550s] writing top-level names to slam_robot.egg-info/top_level.txt
+[0.551s] reading manifest file 'slam_robot.egg-info/SOURCES.txt'
+[0.552s] writing manifest file 'slam_robot.egg-info/SOURCES.txt'
+[0.552s] running build_ext
+[0.552s] Creating /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam-robot.egg-link (link to .)
+[0.553s] Installing frontier_explorer script to /home/viswaa888/maze_robot_ws/install/slam_robot/lib/slam_robot
+[0.553s] Installing frontier_server script to /home/viswaa888/maze_robot_ws/install/slam_robot/lib/slam_robot
+[0.553s] 
+[0.553s] Installed /home/viswaa888/maze_robot_ws/build/slam_robot
+[0.553s] running symlink_data
+[0.553s] symbolically linking /home/viswaa888/maze_robot_ws/build/slam_robot/resource/slam_robot -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/ament_index/resource_index/packages
+[0.553s] symbolically linking /home/viswaa888/maze_robot_ws/build/slam_robot/package.xml -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/slam_robot
+[0.553s] symbolically linking /home/viswaa888/maze_robot_ws/build/slam_robot/launch/bringup.launch.py -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/slam_robot/launch
+[0.553s] symbolically linking /home/viswaa888/maze_robot_ws/build/slam_robot/msg/Frontier.msg -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/slam_robot/msg
+[0.553s] symbolically linking /home/viswaa888/maze_robot_ws/build/slam_robot/msg/FrontierList.msg -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/slam_robot/msg
+[0.553s] symbolically linking /home/viswaa888/maze_robot_ws/build/slam_robot/srv/GetFrontiers.srv -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/slam_robot/srv
+[0.566s] Invoked command in '/home/viswaa888/maze_robot_ws/build/slam_robot' returned '0': PYTHONPATH=/home/viswaa888/maze_robot_ws/build/slam_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/viswaa888/maze_robot_ws/build/slam_robot/build --no-deps symlink_data --force

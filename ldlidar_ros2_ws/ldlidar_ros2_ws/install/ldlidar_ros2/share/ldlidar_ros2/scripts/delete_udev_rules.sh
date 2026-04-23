@@ -1,0 +1,1 @@
+/home/viswaa888/ldlidar_ros2_ws/src/ldlidar_ros2/scripts/delete_udev_rules.sh

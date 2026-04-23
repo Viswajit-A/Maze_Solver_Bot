@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing slam_robot.egg-info/PKG-INFO
+writing dependency_links to slam_robot.egg-info/dependency_links.txt
+writing entry points to slam_robot.egg-info/entry_points.txt
+writing requirements to slam_robot.egg-info/requires.txt
+writing top-level names to slam_robot.egg-info/top_level.txt
+reading manifest file 'slam_robot.egg-info/SOURCES.txt'
+writing manifest file 'slam_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam-robot.egg-link (link to .)
+Installing frontier_explorer script to /home/viswaa888/maze_robot_ws/install/slam_robot/lib/slam_robot
+Installing frontier_server script to /home/viswaa888/maze_robot_ws/install/slam_robot/lib/slam_robot
+
+Installed /home/viswaa888/maze_robot_ws/build/slam_robot
+running symlink_data
+symbolically linking /home/viswaa888/maze_robot_ws/build/slam_robot/resource/slam_robot -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/ament_index/resource_index/packages
+symbolically linking /home/viswaa888/maze_robot_ws/build/slam_robot/package.xml -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/slam_robot
+symbolically linking /home/viswaa888/maze_robot_ws/build/slam_robot/launch/bringup.launch.py -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/slam_robot/launch
+symbolically linking /home/viswaa888/maze_robot_ws/build/slam_robot/msg/Frontier.msg -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/slam_robot/msg
+symbolically linking /home/viswaa888/maze_robot_ws/build/slam_robot/msg/FrontierList.msg -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/slam_robot/msg
+symbolically linking /home/viswaa888/maze_robot_ws/build/slam_robot/srv/GetFrontiers.srv -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/slam_robot/srv

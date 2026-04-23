@@ -1,0 +1,81 @@
+[0.008s] Invoking command in '/home/viswaa888/ldlidar_ros2_ws/build/ldlidar_ros2': CMAKE_PREFIX_PATH=/home/viswaa888/ros2_ws/install/talker_listener:/opt/ros/humble /usr/bin/cmake /home/viswaa888/ldlidar_ros2_ws/src/ldlidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2
+[0.019s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.121s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.126s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.149s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.151s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.155s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.161s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.189s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.190s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.201s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.232s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.250s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.310s] -- operation system is Linux-6.8.0-87-generic
+[0.311s] -- current platform: Linux 
+[0.315s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.320s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.320s] -- Configured cppcheck include dirs: /home/viswaa888/ldlidar_ros2_ws/src/ldlidar_ros2/include;/home/viswaa888/ldlidar_ros2_ws/src/ldlidar_ros2/sdk/include
+[0.320s] -- Configured cppcheck exclude dirs and/or files: 
+[0.323s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.323s] -- Configured cpplint exclude dirs and/or files: 
+[0.323s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.324s] -- Added test 'lint_cmake' to check CMake code style
+[0.325s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.328s] -- Added test 'uncrustify' to check C / C++ code style
+[0.328s] -- Configured uncrustify additional arguments: 
+[0.329s] -- Added test 'xmllint' to check XML markup files
+[0.329s] -- Configuring done
+[0.336s] -- Generating done
+[0.339s] -- Build files have been written to: /home/viswaa888/ldlidar_ros2_ws/build/ldlidar_ros2
+[0.343s] Invoked command in '/home/viswaa888/ldlidar_ros2_ws/build/ldlidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/viswaa888/ros2_ws/install/talker_listener:/opt/ros/humble /usr/bin/cmake /home/viswaa888/ldlidar_ros2_ws/src/ldlidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2
+[0.345s] Invoking command in '/home/viswaa888/ldlidar_ros2_ws/build/ldlidar_ros2': CMAKE_PREFIX_PATH=/home/viswaa888/ros2_ws/install/talker_listener:/opt/ros/humble /usr/bin/cmake --build /home/viswaa888/ldlidar_ros2_ws/build/ldlidar_ros2 -- -j20 -l20
+[0.394s] [  7%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.o[0m
+[0.395s] [ 15%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.o[0m
+[0.396s] [ 23%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.o[0m
+[0.396s] [ 30%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.o[0m
+[0.396s] [ 38%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.o[0m
+[0.396s] [ 53%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.o[0m
+[0.396s] [ 53%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.o[0m
+[0.396s] [ 61%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.o[0m
+[0.397s] [ 69%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.o[0m
+[0.397s] [ 76%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.o[0m
+[0.873s] [ 84%] [32m[1mLinking CXX static library libldlidar_driver.a[0m
+[0.924s] [ 84%] Built target ldlidar_driver
+[0.948s] [ 92%] [32mBuilding CXX object CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.o[0m
+[3.975s] [100%] [32m[1mLinking CXX executable ldlidar_ros2_node[0m
+[4.170s] [100%] Built target ldlidar_ros2_node
+[4.180s] Invoked command in '/home/viswaa888/ldlidar_ros2_ws/build/ldlidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/viswaa888/ros2_ws/install/talker_listener:/opt/ros/humble /usr/bin/cmake --build /home/viswaa888/ldlidar_ros2_ws/build/ldlidar_ros2 -- -j20 -l20
+[4.189s] Invoking command in '/home/viswaa888/ldlidar_ros2_ws/build/ldlidar_ros2': CMAKE_PREFIX_PATH=/home/viswaa888/ros2_ws/install/talker_listener:/opt/ros/humble /usr/bin/cmake --install /home/viswaa888/ldlidar_ros2_ws/build/ldlidar_ros2
+[4.196s] -- Install configuration: ""
+[4.197s] -- Execute custom install script
+[4.197s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/lib/ldlidar_ros2/ldlidar_ros2_node
+[4.206s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld06.launch.py
+[4.214s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld14.launch.py
+[4.223s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld14p.launch.py
+[4.231s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld19.launch.py
+[4.240s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld06.launch.py
+[4.247s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld14.launch.py
+[4.257s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld14p.launch.py
+[4.266s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld19.launch.py
+[4.275s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//rviz2/ldlidar.rviz
+[4.283s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/create_udev_rules.sh
+[4.291s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/delete_udev_rules.sh
+[4.300s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/ldlidar.rules
+[4.309s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_ros2
+[4.317s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_ros2
+[4.325s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/ament_prefix_path.sh
+[4.333s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/ament_prefix_path.dsv
+[4.341s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/path.sh
+[4.350s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/path.dsv
+[4.358s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.bash
+[4.366s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.sh
+[4.374s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.zsh
+[4.383s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.dsv
+[4.390s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.dsv
+[4.397s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ament_index/resource_index/packages/ldlidar_ros2
+[4.406s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/cmake/ldlidar_ros2Config.cmake
+[4.412s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/cmake/ldlidar_ros2Config-version.cmake
+[4.420s] -- Symlinking: /home/viswaa888/ldlidar_ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.xml
+[4.427s] Invoked command in '/home/viswaa888/ldlidar_ros2_ws/build/ldlidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/viswaa888/ros2_ws/install/talker_listener:/opt/ros/humble /usr/bin/cmake --install /home/viswaa888/ldlidar_ros2_ws/build/ldlidar_ros2

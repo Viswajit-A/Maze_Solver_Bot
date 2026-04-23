@@ -1,0 +1,45 @@
+running develop
+Removing /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam-robot.egg-link (link to .)
+running egg_info
+writing ../../build/slam_robot/slam_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/slam_robot/slam_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/slam_robot/slam_robot.egg-info/entry_points.txt
+writing requirements to ../../build/slam_robot/slam_robot.egg-info/requires.txt
+writing top-level names to ../../build/slam_robot/slam_robot.egg-info/top_level.txt
+reading manifest file '../../build/slam_robot/slam_robot.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/slam_robot/slam_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot
+copying /home/viswaa888/maze_robot_ws/build/slam_robot/build/lib/slam_robot/frontier_utils.py -> /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot
+copying /home/viswaa888/maze_robot_ws/build/slam_robot/build/lib/slam_robot/frontier_detection.py -> /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot
+copying /home/viswaa888/maze_robot_ws/build/slam_robot/build/lib/slam_robot/__init__.py -> /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot
+copying /home/viswaa888/maze_robot_ws/build/slam_robot/build/lib/slam_robot/frontier_server.py -> /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot
+creating /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot/srv
+copying /home/viswaa888/maze_robot_ws/build/slam_robot/build/lib/slam_robot/srv/__init__.py -> /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot/srv
+copying /home/viswaa888/maze_robot_ws/build/slam_robot/build/lib/slam_robot/frontier_explorer.py -> /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot
+creating /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot/msg
+copying /home/viswaa888/maze_robot_ws/build/slam_robot/build/lib/slam_robot/msg/__init__.py -> /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot/msg
+byte-compiling /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot/frontier_utils.py to frontier_utils.cpython-310.pyc
+byte-compiling /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot/frontier_detection.py to frontier_detection.cpython-310.pyc
+byte-compiling /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot/frontier_server.py to frontier_server.cpython-310.pyc
+byte-compiling /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot/srv/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot/frontier_explorer.py to frontier_explorer.cpython-310.pyc
+byte-compiling /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot/msg/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/slam_robot -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/slam_robot
+copying launch/bringup.launch.py -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/slam_robot/launch
+copying msg/Frontier.msg -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/slam_robot/msg
+copying msg/FrontierList.msg -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/slam_robot/msg
+copying srv/GetFrontiers.srv -> /home/viswaa888/maze_robot_ws/install/slam_robot/share/slam_robot/srv
+running install_egg_info
+Copying ../../build/slam_robot/slam_robot.egg-info to /home/viswaa888/maze_robot_ws/install/slam_robot/lib/python3.10/site-packages/slam_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing frontier_explorer script to /home/viswaa888/maze_robot_ws/install/slam_robot/lib/slam_robot
+Installing frontier_server script to /home/viswaa888/maze_robot_ws/install/slam_robot/lib/slam_robot
+writing list of installed files to '/home/viswaa888/maze_robot_ws/build/slam_robot/install.log'

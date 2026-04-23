@@ -1,0 +1,1 @@
+/home/viswaa888/maze_robot_ws/src/slam_robot/msg/FrontierList.msg

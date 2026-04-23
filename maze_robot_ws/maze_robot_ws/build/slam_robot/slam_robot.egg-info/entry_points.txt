@@ -1,0 +1,4 @@
+[console_scripts]
+frontier_explorer = slam_robot.frontier_explorer:main
+frontier_server = slam_robot.frontier_server:main
+
