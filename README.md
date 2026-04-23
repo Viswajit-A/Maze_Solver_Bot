@@ -18,7 +18,7 @@ A fully autonomous maze-solving robot built on **ROS 2 (Humble)** using the **li
 
 ## 🎥 Preparation Video
 
-[Maze Solver Robot Preparation](https://youtu.be/phrGzGO_d04)
+[Click Here for the Maze Solver Robot Preparation](https://youtu.be/phrGzGO_d04)
 
 ## 📁 Project Structure
 
