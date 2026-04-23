@@ -311,21 +311,24 @@ ros2 launch linorobot2_viz slam.launch.py
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Summary
 
 | Category | Technology |
 |---|---|
 | Robotics Framework | ROS 2 Humble |
 | Microcontroller | ESP32 |
-| Firmware Framework | PlatformIO + Arduino |
-| MCU–ROS Bridge | micro-ROS (Serial) |
+| Main Computer | Raspberry Pi 4 Model B |
+| Firmware Framework | PlatformIO + Arduino (LinoRobot2) |
+| MCU–ROS Bridge | micro-ROS (Serial / USB) |
 | SLAM | SLAM Toolbox (online async) |
 | Navigation | Nav2 |
-| Exploration | Custom BFS Frontier Detection |
-| LiDAR | LDRobot LD19 |
+| Exploration | Custom BFS + A* Frontier Detection |
+| LiDAR | LDRobot LD19 (STL19P) |
 | IMU | MPU6050 |
-| Motor Driver | Generic 2-IN H-Bridge |
-| Visualization | RViz2 |
+| Motor Driver | TB6612FNG Dual H-Bridge |
+| Visualization | RViz2, Gazebo |
+| CAD | AutoCAD |
+| Chassis | Laser-cut acrylic (2-plate structure) |
 | Language (firmware) | C++ |
 | Language (ROS nodes) | Python 3 |
 
