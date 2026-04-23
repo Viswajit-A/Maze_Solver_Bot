@@ -22,6 +22,12 @@ A maze-solving robot built on **ROS 2 (Humble)** using the **linorobot2** platfo
 
 ---
 
+## 🎥 Exploration Video in RViz2
+
+[Click Here for the Maze Solver Robot Exploration of a Room](https://youtu.be/kyNVrxybrgM)
+
+---
+
 ## 📸 Project Photos
 
 ### 🤖 Robot Hardware
@@ -53,7 +59,7 @@ A maze-solving robot built on **ROS 2 (Humble)** using the **linorobot2** platfo
 
 ![RViz2 SLAM map](Bot_Photos/AMS4.jpeg)
 
-*Real-time occupancy grid map being built by SLAM Toolbox during maze exploration, visualized in RViz2. The map shows explored free space (white), walls (dark), and the robot's current LiDAR scan (colored rays). Terminal logs show SLAM Toolbox, EKF, and Nav2 running simultaneously.*
+*Real-time occupancy grid map being built by SLAM Toolbox during exploration, visualized in RViz2. The map shows explored free space (white), walls (dark), and the robot's current LiDAR scan (colored rays). Terminal logs show SLAM Toolbox, EKF, and Nav2 running simultaneously.*
 
 ---
 
