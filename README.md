@@ -22,20 +22,26 @@ A maze-solving robot built on **ROS 2 (Humble)** using the **linorobot2** platfo
 
 ---
 
+## 🎥 Exploration Video in RViz2
+
+[Click Here for the Maze Solver Robot Exploration of a Room with teleop_twist_keyboard in ROS 2](https://youtu.be/kyNVrxybrgM)
+
+---
+
 ## 📸 Project Photos
 
 ### 🤖 Robot Hardware
 
 | | |
 |---|---|
-| ![Robot assembled](AMS1.jpeg) | ![Robot electronics close-up](AMS3.jpeg) |
-| *Fully assembled maze solver robot — LD19 LiDAR (blue ring), Raspberry Pi with gold heatsink, ESP32, motor driver, and LiPo battery on acrylic chassis* | *Close-up of the robot electronics powered on — LD19 LiDAR, Raspberry Pi 4 with dual-fan heatsink, ESP32 (orange), and wiring* |
+| ![Robot assembled](Bot_Photos/AMS3.jpeg) | ![Robot electronics close-up](Bot_Photos/AMS1.jpeg) |
+| *Fully assembled maze solver robot — LD19 LiDAR (blue ring), Raspberry Pi with gold heatsink, ESP32, motor driver, and LiPo battery on acrylic chassis* | *Close-up of the robot electronics powered on — LD19 LiDAR, Raspberry Pi 4 with dual-fan heatsink, ESP32, and wiring* |
 
 ---
 
 ### 🔬 Electronics Close-Up
 
-![LiDAR and Raspberry Pi close-up](AMS4.jpeg)
+![LiDAR and Raspberry Pi close-up](Bot_Photos/AMS.jpeg)
 
 *Detailed view of the Raspberry Pi 4 with gold dual-fan heatsink and the LD19 LiDAR sensor (blue LEDs active) mounted on top*
 
@@ -43,17 +49,17 @@ A maze-solving robot built on **ROS 2 (Humble)** using the **linorobot2** platfo
 
 ### 🌀 Robot in the Maze
 
-![Robot inside maze](AMS2.jpeg)
+![Robot inside maze](Bot_Photos/AMS2.jpeg)
 
-*The robot navigating autonomously inside the physical maze — white foam board walls, blue LED glow visible from the robot chassis*
+*The robot navigating inside the physical maze — white foam board walls, blue LED glow visible from the robot chassis*
 
 ---
 
 ### 🗺️ SLAM Map — RViz2 Visualization
 
-![RViz2 SLAM map](AMS.jpeg)
+![RViz2 SLAM map](Bot_Photos/AMS4.jpeg)
 
-*Real-time occupancy grid map being built by SLAM Toolbox during maze exploration, visualized in RViz2. The map shows explored free space (white), walls (dark), and the robot's current LiDAR scan (colored rays). Terminal logs show SLAM Toolbox, EKF, and Nav2 running simultaneously.*
+*Real-time occupancy grid map being built by SLAM Toolbox during exploration, visualized in RViz2. The map shows explored free space (white), walls (dark), and the robot's current LiDAR scan (colored rays). Terminal logs show SLAM Toolbox, EKF, and Nav2 running simultaneously.*
 
 ---
 
