@@ -34,8 +34,8 @@ A maze-solving robot built on **ROS 2 (Humble)** using the **linorobot2** platfo
 
 | | |
 |---|---|
-| ![Robot assembled](Bot_Photos/AMS1.jpeg) | ![Robot electronics close-up](Bot_Photos/AMS3.jpeg) |
-| *Fully assembled maze solver robot — LD19 LiDAR (blue ring), Raspberry Pi with gold heatsink, ESP32, motor driver, and LiPo battery on acrylic chassis* | *Close-up of the robot electronics powered on — LD19 LiDAR, Raspberry Pi 4 with dual-fan heatsink, ESP32 (orange), and wiring* |
+| ![Robot assembled](Bot_Photos/AMS3.jpeg) | ![Robot electronics close-up](Bot_Photos/AMS1.jpeg) |
+| *Fully assembled maze solver robot — LD19 LiDAR (blue ring), Raspberry Pi with gold heatsink, ESP32, motor driver, and LiPo battery on acrylic chassis* | *Close-up of the robot electronics powered on — LD19 LiDAR, Raspberry Pi 4 with dual-fan heatsink, ESP32, and wiring* |
 
 ---
 
