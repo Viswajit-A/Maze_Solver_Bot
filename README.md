@@ -12,7 +12,11 @@ A maze-solving robot built on **ROS 2 (Humble)** using the **linorobot2** platfo
 | Viswajit Arunkumar | Amrita Vishwa Vidyapeetham |
 | Yashwanth Ram Mohan C | Amrita Vishwa Vidyapeetham |
 
-**Mentor:** Jayasree P.R.
+**Mentor:** Jayasree P.R. 
+
+## 🏆 Certificate
+
+📄 **[Click Here to View Certificate](Certificate/Robofest_Certificate.jpeg)**
 
 ---
 
