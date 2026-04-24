@@ -51,7 +51,7 @@ A maze-solving robot built on **ROS 2 (Humble)** using the **linorobot2** platfo
 
 ![Robot inside maze](Bot_Photos/AMS2.jpeg)
 
-*The robot navigating autonomously inside the physical maze — white foam board walls, blue LED glow visible from the robot chassis*
+*The robot navigating inside the physical maze — white foam board walls, blue LED glow visible from the robot chassis*
 
 ---
 
